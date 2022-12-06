@@ -5,6 +5,7 @@
 * **Phone:** +375 29 384-28-65
 * **E-mail:** patsiomkina@inbox.ru
 * **GitHub:** patsiomkina
+
 ---
 ### Briefly About Myself:
 
@@ -22,6 +23,7 @@ I’m interested in Web Development because this occupation provides endless pos
 * HTML5, CSS3
 * API, REST, SOAP, Postman, Soap UI
 * QA, AQA
+
 ---
 ### Code example:
 **Isograms from CODEWARS:** *An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.*
@@ -44,9 +46,11 @@ def is_isogram(string):
 * Courses:
     - FreeCodeCamp
     - HTML Academy
+
 ---
 ### Languages:
 * **English** - Advanced (according to the online test at www.efset.org)
 ![English level test results](English_level_test_results.png)
 * **Russian** - Native
+
 ---
