@@ -1,3 +1,125 @@
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+code {
+    font-size: 14px;
+}
+
+body {
+    display: block;
+    margin: auto;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 100;
+    color: #363636;
+}
+
+.main-header {
+    margin: 40px;
+    position: relative;
+    top: 30px;
+}
+
+.header-navigation {
+    padding: 10px;
+    display: block;
+    background-image: url("images/111.png");
+    border-radius: 40px;
+}
+
+.header-navigation .navigation-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    margin: 60px 40px 30px 40px;
+}
+
+.base-info {
+    background-image: url("images/leaves.jpg");
+    background-size: cover;
+    border-radius: 240px;
+    padding: 20px;
+}
+
+.profile-photo img {
+    display: block;
+    margin: 40px auto;
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+}
+
+.name-title {
+    text-align: center;
+}
+
+.name-title h1 {
+    font-size: 30px;
+}
+
+.base-info h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.contact-info ul, .education ul, .languages ul {
+    list-style-type: none;
+}
+
+.languages ul {
+    text-align: center;
+}
+
+.work-info h2 {
+    padding: 10px;
+    display: block;
+    background-image: url("images/111.png");
+    border-radius: 40px;
+}
+
+.work-info > .work-section > :not(h2) {
+    padding: 20px;
+}
+
+.skills ul {
+    columns: 2;
+}
+
+.projects ul {
+    columns: 2;
+}
+
+.footer {
+    padding: 10px;
+    background-image: url("images/111.png");
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+}
+
+.github a {
+    padding-left: 15px;
 }
