@@ -4,9 +4,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Natallia Patsiomkina | CV</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CV | Natallia Patsiomkina</title>
 </head>
 <body>
-    blank template
+    <header class="main-header">
+        <nav class="header-navigation">
+            <ul class="navigation-list">
+                <li>
+                    <a href="#about">About me</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="base-info">
+            <div class="profile-photo">
+               <img src="images/nata.jpg" alt="Nata's photo" width="100" height="100"> 
+            </div>    
+            <div class="name-title">
+                <h1>Natallia Patsiomkina</h1>
+                <p>Junior FrontEnd Developer</p>
+            </div>        
+
+            <section id="contacts" class="contact-info">
+                <h2>Contacts:</h2>
+                <ul>
+                    <li>
+                        <img src="images/email.svg" alt="E-mail logo">
+                        patsiomkina@inbox.ru
+                    </li>
+                    <li>                        
+                        <a href="https://github.com/patsiomkina" target="_blank">
+                            <img src="images/github.png" alt="GitHub logo" width="24" height="24">
+                            patsiomkina
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <img src="images/geo.svg" alt="Geo logo" width="24" height="24">
+                        Belarus, Gomel
+                    </li>
+                </ul>
+            </section>
+            <section id="education" class="education">
+                <h2>Education:</h2>
+                <ul>
+                    <li>
+                        <img src="images/university.svg" alt="Freecodecamp logo" width="24" height="24">
+                        Francisk Skorina Gomel State University, Criminal Law and Procedure Major
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@freecodecamp" target="_blank">                            
+                            <img src="images/freecodecamp.svg" alt="Freecodecamp logo" width="24" height="24">
+                            FreeCodeCamp
+                        </a>                        
+                    </li>
+                </ul>
+            </section>
+            <section class="languages">
+                <h2>Languages:</h2>
+                <ul class="languages">
+                    <li>
+                        Russian: native
+                    </li>
+                    <li>
+                        English: B2
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section class="work-info">
+            <section id="about" class="about work-section">
+                <h2>Briefly About Myself:</h2>
+                <p>I’m interested in Web Development because this occupation provides endless possibilities for professional growth, besides there’s a huge amount of free high quality resources for self-education and a large community of developers.</p>
+            </section>
+            <section id="skills" class="skills work-section">
+                <h2>Skills and Proficiency:</h2>
+                <ul>
+                    <li>Python, PyTest, requests</li>
+                    <li>Selenium WebDriver</li>
+                    <li>Robot Framework</li>
+                    <li>Git, GitHub</li>
+                    <li>Bash</li>
+                    <li>SQL</li>
+                    <li>PostgreSQL</li>
+                    <li>HTML5, CSS3</li>
+                    <li>API, REST, SOAP, Postman, Soap UI</li>
+                    <li>QA, AQA</li>
+                </ul>            
+            </section> 
+            <section class="code work-section">
+                <h2>Code example (Python):</h2>
+                <p><code>
+                    <span style="color: rgb(173, 43, 238)">def </span><span style="color: rgb(61, 98, 245);">is_isogram</span><span style="color: rgb(135, 113, 29);">(string)</span>:<Br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;new_str = ''<Br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(173, 43, 238)">for</span> letter <span style="color: rgb(173, 43, 238)">in</span> string:<Br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new_str += letter<Br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;new_set = set(new_str.lower())<Br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;finish = ''.join(sorted(new_set))<Br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;start = ''.join(sorted(string.lower()))<Br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(173, 43, 238)">if</span> start == finish <span style="color: rgb(173, 43, 238)">or</span> string == '':<Br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(173, 43, 238)">return True</span><Br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(173, 43, 238)">else</span>:<Br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(173, 43, 238)">return False</span><Br>
+                </code></p>
+            </section> 
+            <section id="projects" class="projects work-section">
+                <h2>Projects:</h2>
+                <ul>
+                    <li><a href="https://patsiomkina.github.io/cars-hw/"
+                        target="_blank">Страничка сервиса аренды авто</a>
+                    </li>
+                    <li><a href="https://patsiomkina.github.io/AIM-game/"
+                        target="_blank">AIM game JS</a>
+                    </li>
+                    <li><a href="https://patsiomkina.github.io/color-board/"
+                        target="_blank">Color board JS</a>
+                    </li>
+                    <li><a href="https://patsiomkina.github.io/slider/"
+                        target="_blank">Слайдер на JavaScript</a>
+                    </li>
+                    <li><a href="https://patsiomkina.github.io/cards_gallery/"
+                        target="_blank">Галерея картинок на JavaScript</a>
+                    </li>
+                    <li><a href="https://patsiomkina.github.io/cool_slider/"
+                        target="_blank">Cool slider</a>
+                    </li>
+                    <li><a href="https://patsiomkina.github.io/quiz/"
+                        target="_blank">Викторина на JavaScript</a>
+                    </li>
+                    <li><a href="https://patsiomkina.github.io/trello_style_page/"
+                        target="_blank">Trello style page</a>
+                    </li>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="github">
+            <img src="images/github-logo.svg" width="40" height="40" alt="GitHub logo">
+            <a href="https://github.com/patsiomkina" target="_blank">My GitHub</a>            
+        </div>
+        <div>2022</div>
+        <a href="https://rs.school/js-stage0/" target="_blank"><img src="images/rs-logo.svg" width="50" height="50" alt="RS School logo"></a>
+    </footer>
 </body>
 </html>
